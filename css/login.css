@@ -1,0 +1,84 @@
+body,html{
+    width:100%;
+    height:100%;
+    background:#c4c4c4;
+    font-size: 14px;
+}
+/*登录框样式*/
+#login-wapper{
+    width:425px;
+    margin:100px auto 0;
+    box-shadow:2px 5px 5px #9e9e9e;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.header{
+    width:100%;
+    height:45px;
+    background: #4d99ed;
+    font-size: 26px;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+.content{
+    box-sizing: border-box;
+    width: 100%;
+    height:335px;
+    background: #ececec;
+    padding:37px 45px 0;
+    text-align: center;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+}
+.user,.pwd{
+    width: 335px;
+    border-bottom: 1px solid #fcfcfe;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.pwd{
+    margin-top: 17px;
+}
+.user-icon,.pwd-icon{
+    box-sizing: border-box;
+    width:56px;
+    height: 52px;
+    line-height: 52px;
+    border-right: 1px solid #fcfcfe;
+    background: #4d99ed;
+    -webkit-border-radius: 6px 0 0 6px;
+    -moz-border-radius: 6px 0 0 6px;
+    border-radius: 6px 0 0 6px;
+}
+.icon-user,.icon-pwd{
+    color: #fff;
+    font-size: 20px;
+}
+.user-text,.pwd-text{
+    box-sizing: border-box;
+    width:279px;
+    height: 52px;
+    border:none;
+    -webkit-border-radius:0 6px 6px 0;
+    -moz-border-radius:0 6px 6px 0;
+    border-radius:0 6px 6px 0;
+    font-size:14px;
+    color: #000;
+    background: #dcdcdc;
+    text-indent: 10px;
+    box-shadow:inset 0px 1px 1px #d1d1d1;
+}
+.remember{
+    margin:15px 0;
+}
+.prompt{
+    color: red;
+    margin-top: 5px;
+}

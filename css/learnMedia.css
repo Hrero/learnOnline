@@ -1,0 +1,334 @@
+@media screen and (max-width: 1000px) {
+    .header{
+        background: #337AB7;
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header img{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .content{
+        width: 100%;
+        min-width: 300px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .headTop{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .headTop>li{
+        height: 100px;
+        line-height: 100px;
+        font-size: 32px;
+    }
+    .nav-tabs>li {
+        float: left;
+        margin-bottom: -1px;
+        width: 25%;
+        font-size: 30px;
+        text-align: center;
+        height: 100px;
+    }
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        padding: 10px;
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 1px solid #ddd;
+    }
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        color: #555;
+        cursor: default;
+        background-color: #fff;
+        border: 2px solid #ddd;
+        border-bottom-color: transparent;
+        height: 100px;
+        line-height: 80px;
+    }
+    .nav-tabs>li>a {
+        color: #555;
+        cursor: default;
+        background-color: #fff;
+        border-bottom-color: transparent;
+        height: 100px;
+        line-height: 80px;
+    }
+    .btnTui{
+        margin-left: 20px;
+    }
+    .section{
+        width: 100%;
+    }
+    .userBtn>button{
+        font-size: 25px;
+        width: 30%;
+    }
+    .table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .table .btn{
+        margin-right: 2%;
+    }
+    .btn-group-sm>.btn, .btn-sm {
+        padding: 5px 10px;
+        font-size: 28px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
+    /*------------------------------- 考试部分 ------------------------------------------*/
+    .topic{
+        width: 100%;
+        box-sizing: border-box;
+        min-height: 640px;
+        border-right: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+    }
+    .topic-header{
+        text-align: center;
+        font-size: 32px;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #2e6da4;
+        font-size: 28px;
+    }
+    .btn-wapper{
+        text-align: left;
+        padding: 3px;
+    }
+    .text-wapper{
+        width: 100%;
+        min-height: 550px;
+        padding: 10px;
+        margin-top: 30px;
+        border: 1px solid #6BA7D8;
+    }
+    .explain{
+        font-size: 14px;
+        font-weight: 500px;
+        color: #333;
+    }
+    .choose-box input{
+        margin-right: 5px;
+    }
+    .time{
+        width: 100%;
+        min-height: 640px;
+        padding: 0px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .settimer{
+        padding-left: 0px;
+    }
+    .settimer p{
+        font-size: 28px;
+        color:#008000;
+        line-height: 80px;
+        margin-bottom: 0;
+    }
+    .settimer .red{
+        color: red;
+    }
+    .settimer button{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .choose-num{
+        color: #aaa;
+        padding-top: 0px;
+        font-size: 28px;
+        line-height: 60px;
+        margin-top: 10px;
+    }
+    .num-wapper{
+        /*height: 500px;*/
+        overflow: hidden;
+        overflow-y: auto;
+        border: 1px solid #aaa;
+        font-size: 28px;
+    }
+    .num-wapper p{
+        height: 28px;
+        line-height: 28px;
+        margin-bottom:0px;
+    }
+    .num-wapper button{
+        background: #f1f1f1;
+        border-radius: 4px;
+        width: 34px;
+        height: 22px;
+        text-align: center;
+        line-height: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border: 1px solid #aaa;
+        padding: 0;
+        margin: 2px 2px;
+    }
+    .num-wapper .active{
+        background:#337ab7;
+        color: #fff;
+    }
+    .prompt-box{
+        position: absolute;
+        z-index: 99;
+        width: 300px;
+        left: 390px;
+        top: 232.5px;
+        border: 1px solid #4a74bc;
+        border-radius: 2px 2px 0 0;
+    }
+    .prompt-header{
+        height: 25px;
+        line-height: 25px;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        background: url("../img/title_bg_center.gif") repeat-x;
+        padding-left: 10px;
+    }
+    .icon-close{
+        margin-right:5px;
+        cursor: pointer;
+    }
+    .prompt-content{
+        height: 158px;
+        background: #bbd4f6;
+    }
+    .prompt-content .ask{
+        margin: 35px 30px 0 30px;
+    }
+    .prompt-content p{
+        margin-top: 50px;
+        color: #333;
+        font-size: 12px;
+    }
+    .prompt-content div{
+        width: 100%;
+        position: absolute;
+        bottom: 5px;
+        text-align: center;
+    }
+    .prompt-sure,.prompt-close{
+        background: url(../img/btn_bg.gif) no-repeat;
+        width: 80px;
+        height: 21px;
+        line-height: 21px;
+        font-size: 12px;
+        color: #000;
+        border: 0;
+        margin: 10px 3px;
+    }
+    .last-point{
+        text-align: center;
+        margin: 20px auto;
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #337AB7;
+        background: #E4EFF8;
+        border-radius: 5px;
+    }
+    .module1-point{
+        margin: 50px 0 30px;
+        text-align: center;
+    }
+    .module1-point strong,.module2-point strong{
+        font-weight: 400;
+        font-size: 16px;
+        color: #333;
+    }
+    .module1-point span,.module2-point span{
+        color: red;
+    }
+    .footer{
+        margin: 50px 0 40px;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+    }
+    .footer a{
+        margin: 0 5px;
+    }
+    .userTime{
+        color:red;
+    }
+    /*------------------------------- 练习部分 ------------------------------------------*/
+    .practice-box{
+        margin-top: 10px;
+        border: 1px solid #6ba7d8;
+    }
+    .practice-header{
+        padding: 10px 0 10px 5px;
+        border-bottom: 1px solid #6BA7D8;
+        background: #AACCE8;
+    }
+    .practice-header input{
+        width:60px;
+        display:inline;
+    }
+    .practice-content{
+        padding: 20px;
+    }
+    .practice-content input{
+        margin-right: 5px;
+    }
+    .changePwd{
+        width: 80%;
+        margin: 100px auto;
+        font-size: 28px;
+        padding: 0px;
+    }
+    .changePwd input{
+        width: 70%;
+        height: 70px;
+        display: inline;
+        font-size: 28px;
+    }
+    .ma-Bo-10{
+        margin: 50px 0;
+    }
+    .pa-le{
+        padding-left: 0px;
+    }
+    .redText{
+        color: red;
+    }
+    .btn-default {
+        font-size: 30px;
+        color: #333;
+        background-color: #fff;
+        border-color: #ccc;
+    }
+    .loading-box{
+        width: 320px;
+        height: 100px;
+        line-height: 80px;
+        font-size: 28px;
+        text-align: center;
+        position: absolute;
+        top:47%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(221, 221, 221, .6);
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .loading-box img{
+        width: 60px;
+        height: 60px;
+    }
+
+
+}

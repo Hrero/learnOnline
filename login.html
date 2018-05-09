@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div id="login-wapper">
+        <div class="header">九大员在线联系</div>
+        <div class="content">
+            <div class="user clearfix">
+                <div class="user-icon fl">
+                    <i class="iconfont icon-user"></i>
+                </div>
+                <input type="text" class="user-text fl" maxlength="18" placeholder="请输入身份证号">
+            </div>
+            <div class="pwd clearfix">
+                <div class="pwd-icon fl">
+                    <i class="iconfont icon-pwd"></i>
+                </div>
+                <input type="password" class="pwd-text fl" placeholder="输入密码，默认密码:888888">
+            </div>
+            <div class="remember">
+                <input type="checkbox" id="checkbox-remember" checked>
+                <label for="checkbox-remember" class="remember-text">记住登录信息</label>
+            </div>
+            <div class="submit">
+                <input type="image" src="img/loginbtn.jpg" class="btn">
+            </div>
+            <p class="prompt">请填写身份证号！</p>
+        </div>
+    </div>
+</body>
+<script src="lib/jquery-1.12.1.js"></script>
+<script src="lib/util.js"></script>
+<script src="js/login.js"></script>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理系统</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/manage.css">
+</head>
+<body>
+    <div id="left_wrapper">
+        <ul>
+            <li class="title">后台管理</li>
+            <li class="add-user index">添加用户<i class="iconfont icon-arrow"></i></li>
+            <li class="change-pwd">修改密码<i class="iconfont icon-arrow"></i></li>
+            <li class="out">退出登录</li>
+        </ul>
+    </div>
+    <div id="right_wrapper">
+        <div class="adduser flt">
+            <div class="ma-Bo-10">
+                <span>账户名：</span><input type="text" maxlength="18" class="form-control addname" placeholder="请添加身份证号">
+            </div>
+            <div class="ma-Bo-10">
+                <span>密码：</span><input type="password" maxlength="20" class="form-control addpwd" placeholder="请添加6~20位长度密码">
+            </div>
+            <div class="ma-Bo-10">
+                <span>确认密码：</span><input type="password" maxlength="20" class="form-control addpwd-again" placeholder="重复新密码">
+            </div>
+            <div class="ma-Bo-10 clearfix">
+                <span class="fl">权限设置：</span>
+                <div class="fl set-box">
+                    <div class="fl ipt-box"><input type="checkbox" id="a" value="标准员"><label for="a">标准员</label></div>
+                    <div class="fl ipt-box"><input type="checkbox" id="b" value="材料员"><label for="b">材料员</label></div>
+                    <div class="fl ipt-box"><input type="checkbox" id="c" value="机械员"><label for="c">机械员</label></div>
+                    <div class="fl ipt-box"><input type="checkbox" id="d" value="劳务员"><label for="d">劳务员</label></div>
+                    <div class="fl ipt-box"><input type="checkbox" id="e" value="资料员"><label for="e">资料员</label></div>
+                    <div class="fl ipt-box"><input type="checkbox" id="f" value="市政工程施工员"><label for="f">市政工程施工员</label></div>
+                    <div class="fl ipt-box"><input type="checkbox" id="g" value="市政工程质量员"><label for="g">市政工程质量员</label></div>
+                    <div class="fl ipt-box"><input type="checkbox" id="h" value="土建安全员"><label for="h">土建安全员</label></div>
+                    <div class="fl ipt-box"><input type="checkbox" id="i" value="土建施工员"><label for="i">土建施工员</label></div>
+                    <div class="fl ipt-box"><input type="checkbox" id="j" value="土建质量员"><label for="j">土建质量员</label></div>
+                    <div class="fl ipt-box"><input type="checkbox" id="k" value="设备安装施工员"><label for="k">设备安装施工员</label></div>
+                    <div class="fl ipt-box"><input type="checkbox" id="l" value="设备安装质量员"><label for="l">设备安装质量员</label></div>
+                </div>
+            </div>
+            <p class="pa-le redText adduser-text"></p>
+            <div class="pa-le">
+                <button class="btn btn-default addBtn">确定</button>
+            </div>
+        </div>
+        <div class="changePwd hide flt">
+            <div class="ma-Bo-10">
+                <span>原密码：</span><input type="password" maxlength="20" class="form-control pwdOld" placeholder="原登录密码">
+            </div>
+            <div class="ma-Bo-10">
+                <span>新密码：</span><input type="password" maxlength="20" class="form-control pwdNew" placeholder="密码密码由6~20位">
+            </div>
+            <div class="ma-Bo-10">
+                <span>原密码：</span><input type="password" maxlength="20" class="form-control pwdNewAgain" placeholder="重复新密码">
+            </div>
+            <p class="pa-le redText changePwd-text"></p>
+            <div class="pa-le">
+                <button class="btn btn-default pwdBtn">确定</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="lib/jquery-1.12.1.js"></script>
+<script src="js/manage.js"></script>
+</html>

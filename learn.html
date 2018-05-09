@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>九大员在线练习</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/learn.css">
+    <link rel="stylesheet" href="css/learnMedia.css">
+</head>
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" onbeforecopy="return false" oncopy="return false;">
+    <noscript>
+        <iframe src="*.html"></iframe>
+    </noscript>
+    <div class="header">
+        <img src="img/logo.gif" alt="九大员在线练习">
+    </div>
+    <div class="content clearfix">
+        <ul class="headTop">
+            <li role="presentation" class="disabled"><a href="javascript:;" style="cursor:default" class="user-name-text"></a></li>
+            <li role="presentation"><a href="javascript:;" class="btnTui">退出</a></li>
+        </ul>
+
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="javascript:;" class="back-home" style="cursor:pointer">练习首页</a></li>
+            <li role="presentation" class="btnPwd"><a href="javascript:;" >修改密码</a></li>
+
+        </ul>
+
+        <div class="section">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th width="7%">序号</th>
+                        <th width="18%">岗位名称</th>
+                        <th width="9%" align="center">时长</th>
+                        <th width="30%" align="center">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="topic-box hide">
+            <div class="topic fl">
+                <p class="topic-header">
+                    <span></span><span>模块一</span>
+                </p>
+                <div class="btn-wapper">
+                    <button type="button" class="btn btn-primary prev">上一题</button>
+                    <button type="button" class="btn btn-primary next">下一题</button>
+                </div>
+                <div class="text-wapper">
+
+                </div>
+            </div>
+            <div class="time fl">
+                <div class="settimer">
+                    <p>本模块还剩：90分</p>
+                    <button type="button" class="btn btn-primary btn-lg">交卷</button>
+                </div>
+                <div class="choose-num">选择题号</div>
+                <div class="num-wapper clearfix">
+                    <p>(一)、单项选择题</p>
+                    <div class="clearfix onlyOne">
+
+                    </div>
+                    <p>(二)、多项选择题</p>
+                    <div class="clearfix moreChooose">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last-point hide">
+            <div class="module1-point">
+                <strong>模块一考试成绩：<span>0</span>分!</strong>
+            </div>
+            <div class="module2-point">
+                <strong>模块二考试成绩：<span>0</span>分!</strong>
+            </div>
+            <div class="footer">
+                <p>本次考试结束，您可以：</p>
+                <a href="javascript:;" class="btn btn-primary btn-sm again">重新考试</a>
+                <a href="javascript:;" class="btn btn-primary btn-sm start-practice">开始练习</a>
+                <a href="javascript:;" class="btn btn-primary btn-sm back-home">返回首页</a>
+            </div>
+        </div>
+        <div class="practice-box hide">
+            <div class="practice-header">
+                <span>当前练习岗位：</span>
+                <span class="bold"></span>
+                <span>第<em>1</em>题，</span>
+                <span class="mar-let-8">共题</span>
+                <button type="button" class="btn btn-primary mar-rig-5 pr-prev">上一题</button>
+                <button type="button" class="btn btn-primary mar-rig-5 pr-next">下一题</button>
+                <input type="text" class="form-control mar-rig-5">
+                <button type="button" class="btn btn-primary mar-rig-5 jump">跳到</button>
+                <button type="button" class="btn btn-primary back-home-pr">返回首页</button>
+            </div>
+            <div class="practice-content">
+                <div class="practice-content-box">
+                </div>
+                <div><span class="label label-success hide">正确</span><span class="label label-danger hide">错误</span></div>
+            </div>
+        </div>
+        <div class="changePwd hide">
+            <div class="ma-Bo-10">
+                <span>原密码：</span><input type="password" maxlength="20" class="form-control pwdOld" placeholder="原登录密码">
+            </div>
+            <div class="ma-Bo-10">
+                <span>新密码：</span><input type="password" maxlength="20" class="form-control pwdNew" placeholder="密码密码由6~20位">
+            </div>
+            <div class="ma-Bo-10">
+                <span>原密码：</span><input type="password" maxlength="20" class="form-control pwdNewAgain" placeholder="重复新密码">
+            </div>
+            <p class="pa-le redText"></p>
+            <div class="pa-le">
+                <button class="btn btn-default pwdBtn">确定</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="prompt-box hide">
+        <div class="prompt-header">
+            提示
+            <i class="iconfont icon-close fr"></i>
+        </div>
+        <div class="prompt-content">
+            <img src="img/ask.gif" alt="" class="ask fl">
+            <p class="fl">您确定提交 模块一 吗？</p>
+            <div>
+                <button type="button" class="prompt-close">取消</button>
+                <button type="button" class="prompt-sure">确定</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="loading-box hide">
+        <img src="img/loading.gif" alt="">
+        <span>正在加载...</span>
+    </div>
+</body>
+<script src="lib/jquery-1.12.1.js"></script>
+<script src="lib/util.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+<script src="js/util.js"></script>
+<script src="js/learn.js"></script>
+</html>
